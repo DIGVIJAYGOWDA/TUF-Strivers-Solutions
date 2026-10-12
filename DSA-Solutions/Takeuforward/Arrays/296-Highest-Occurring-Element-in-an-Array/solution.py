@@ -9,4 +9,4 @@ class Solution:
                     freq[i]=1
             
             max_freq=0
-            res=0
+            res=None
