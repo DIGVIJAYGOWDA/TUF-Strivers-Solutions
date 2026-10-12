@@ -10,3 +10,13 @@ class Solution:
             
             max_freq=0
             res=None
+
+            for i in freq:
+                if freq[i]>max_freq:
+                    max_freq=freq[i]
+                    res=i
+                
+                elif freq[i]==max_freq and i<res:
+                    res=i
+                
+            return res
