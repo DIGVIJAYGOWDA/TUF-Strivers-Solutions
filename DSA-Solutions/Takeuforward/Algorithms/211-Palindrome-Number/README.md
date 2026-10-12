@@ -10,11 +10,11 @@
 | :--- | :--- |
 | **Platform** | [Takeuforward](https://takeuforward.org/practice/dsa/palindrome-number) |
 | **Problem Link** | [View Problem on Takeuforward](https://takeuforward.org/practice/dsa/palindrome-number) |
-| **Language** | `C++` |
+| **Language** | `Python3` |
 | **Estimated Time Complexity** | `O(N)` |
 | **Estimated Space Complexity** | `O(1)` |
 | **Topics / Tags** | `Algorithms` |
-| **Synchronized At** | `Sun, 11 Oct 2026 13:03:29 GMT` |
+| **Synchronized At** | `Mon, 12 Oct 2026 12:46:36 GMT` |
 
 ---
 
