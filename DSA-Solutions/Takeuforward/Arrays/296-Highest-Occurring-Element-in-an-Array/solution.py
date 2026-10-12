@@ -7,3 +7,6 @@ class Solution:
                     freq[i]+=1
                 else:
                     freq[i]=1
+            
+            max_freq=0
+            res=0
