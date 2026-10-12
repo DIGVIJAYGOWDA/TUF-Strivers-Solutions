@@ -6,4 +6,4 @@ class Solution:
                 if i in freq:
                     freq[i]+=1
                 else:
-                    freq[i]==1
+                    freq[i]=1
