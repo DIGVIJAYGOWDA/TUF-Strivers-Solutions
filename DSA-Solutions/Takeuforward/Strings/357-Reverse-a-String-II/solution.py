@@ -9,5 +9,3 @@ class Solution:
             s[j]=temp
             i+=1
             j-=1
-
-        return temp
