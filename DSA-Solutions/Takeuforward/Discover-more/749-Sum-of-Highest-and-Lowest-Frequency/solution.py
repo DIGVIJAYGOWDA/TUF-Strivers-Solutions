@@ -1,23 +1,26 @@
 class Solution:
     def sumHighestAndLowestFrequency(self, nums):
         freq={}
-        sum=0
+        
         for i in nums:
             if i in freq:
                 freq[i]+=1
             else:
                 freq[i]=1
         
-        max=0
-        low=None
+        max_freq=0
+        low=float('inf')
 
         for i in freq:
-            if freq[i]>max:
-                low=max
-                max=freq[i]
+            if freq[i]>max_freq:
+                
+                max_freq=freq[i]
             
-            if freq[i]<low or freq[i]<max:
+            if freq[i]<low:
                 low=freq[i]
+
+           
+                
         
-        sum=low+max
-        return sum
+        
+        return max_freq+low
