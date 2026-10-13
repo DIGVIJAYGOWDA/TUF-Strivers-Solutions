@@ -1,3 +1,3 @@
 class Solution:    
     def palindromeCheck(self, s):
-        return
+        return s ==''.join(reversed(s))
