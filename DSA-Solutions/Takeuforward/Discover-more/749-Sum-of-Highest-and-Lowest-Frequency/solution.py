@@ -9,10 +9,11 @@ class Solution:
                 freq[i]=1
         
         max=0
-        low=1
+        low=None
 
         for i in freq:
             if freq[i]>max:
+                low=max
                 max=freq[i]
             
             if freq[i]<low:
