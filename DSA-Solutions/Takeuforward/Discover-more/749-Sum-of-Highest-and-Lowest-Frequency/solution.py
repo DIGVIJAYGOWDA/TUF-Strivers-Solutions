@@ -16,7 +16,7 @@ class Solution:
                 low=max
                 max=freq[i]
             
-            if freq[i]<low:
+            if freq[i]<low or freq[i]<max:
                 low=freq[i]
         
         sum=low+max
